@@ -1,0 +1,16 @@
+#Create a dictionary with student with fname, lname, roll_no, age, programme, course, department, attendance percentage,overall marks
+
+i. add 10% to attendace
+ii. marks reduce by 2%
+iii. display lenght of the dictionary
+iv. create a new dictionary with the copy of the values in the first dictionary
+
+2#
+Create a new dictionary which contains values from the third element till the sixth element of the first dictionary
+Get the value of course from the dictionary
+Get all the keys present in the dictionary
+Get all value in the dictionary
+check if a given key exists in the dictionary
+delecte marks from the dictionary
+delete last name from the dictionary
+delete all content from the dictionary

@@ -1,0 +1,9 @@
+'''
+Accept two values from the url and display the,
+1. addition of the two numbers
+2. div
+3. sub
+4. mul
+
+define 4 methods for the same
+'''
