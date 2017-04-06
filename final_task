@@ -1,0 +1,28 @@
+A GPS device measures a position at every 's' seconds...The positions corresponding to a specific trip are stored as x,y coordinates in a file/database, Where x and x=y are integer values. 
+
+Starting values of 's' is given as an input along with x and y for 10 positions.
+
+i. Plot a two dimensional curve of the corresponding data in a file or database.
+
+ii. Plot the velocity in the x direction versus time in one graph and velocity in  y direction in another graph.
+
+Use the formula for velocity in x at time t as the standard formula for.
+
+
+div of marks
+-problem def
+-possible appraoches
+-resources reffered
+-algorithm or steps to approach the solution
+-use of libraries and methods
+-complete solution to the problem
+
+
+
+--- 2 ---
+
+Given a function f(x)=1/root(2 pi)*e^-1/2*x^2
+
+-4<x<4 for 40 points
+
+plot the curve for (x,f(x))

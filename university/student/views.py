@@ -6,10 +6,10 @@ from django.http import HttpResponse
 	return HttpResponse("Fodela re? -_- ")
 '''
 
-def display_name(request)
+def display_name(request):
 	name="MyronCJ"
 	return HttpResponse("My name is "+name)
 
-def pass_variable(request)
+def pass_variable(request):
 	x = request.GET['a']
 	return HttpResponse("Variable is "+x)

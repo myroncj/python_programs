@@ -1,4 +1,4 @@
-"""university URL Configuration
+"""pringles URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
@@ -15,15 +15,17 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from student.views import display_name
-from age.views import index,save
+from chips.views import index,save,first,next1,inputs,graph1,graph2
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    #url(r'^student', display_name)
-    url(r'^$', display_name),
-    url(r'^input/',index),
-    url(r'^save/',save)
+    #url(r'^input/',index),
+    url(r'^save/',save),
+    #url(r'^plot/',plot),
+    url(r'^first',first),
+    url(r'^next',next1),
+    url(r'^input',inputs),    
+    url(r'^graph1',graph1),
+    url(r'^graph2',graph2),
+    
 ]
-
-#def use_template_

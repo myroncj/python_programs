@@ -1,4 +1,4 @@
-"""university URL Configuration
+"""final URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
@@ -15,15 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from student.views import display_name
-from age.views import index,save
+from app1.views import index,save1,save2,save3,display,write
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    #url(r'^student', display_name)
-    url(r'^$', display_name),
-    url(r'^input/',index),
-    url(r'^save/',save)
+    url(r'^index',index),
+    url(r'^save1',save1),
+    url(r'^save2',save2),
+    url(r'^save3',save3),
+    url(r'^display',display),
+    url(r'^write',write),
 ]
-
-#def use_template_
